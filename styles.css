@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(183, 194, 197);
+}
+
+li,a,button,h1
+{
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: black;
+}
+h2,p
+{
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 30px; 
+    text-decoration: none;
+    background-color: #24252A;
+    color: #edf0f1;
+
+     transition: all 0.3s ease 0s;
+     cursor: pointer;
+}
+
+h2:hover,p:hover
+{
+color: #0088a9;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+     background-color: black;
+
+}
+
+h1
+{
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.nav_links
+{
+    list-style: none;
+
+}
+.nav_links li
+{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+   
+}
+.nav_links li a:hover
+{
+    color: #0088a9;
+}
+button
+{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+}
+
+button:hover
+{
+      background-color: rgba(0, 136, 169, 0.8);
+}
+
+.hero_content
+{
+    text-align: center;
+  
+   
+    padding: 150px 150px;
+    background-color: #24252A;
+   
+}
+
+.container_1
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.beneficio
+{
+    background-color: #24252A;;
+    padding: 40px 90px 40px 90px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+
+    
+   
+
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px; 
+    text-decoration: none;
+    color: #edf0f1;
+  
+    transition: all 0.3s ease 0s;
+}
+
+.beneficio:hover
+{
+    background-color: #0088a9;
+    color: #edf0f1;
+}
+
+.mark
+{
+    background-color: #0088a9;;
+    color: black;
+    padding: 2px 4px;       
+    border-radius: 5px;       
+    font-weight: bold;  
+}
