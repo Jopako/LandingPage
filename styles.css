@@ -156,12 +156,12 @@ button:hover
 {
     .container_1 
     {
-        flex-direction: column; /* empilha os cards */
+        flex-direction: column; 
         gap: 20px;
         padding: 0 15px;
     }
 
     .hero_content {
-        padding: 100px 15px; /* reduz padding em telas pequenas */
+        padding: 100px 15px; 
     }
 }
