@@ -8,6 +8,11 @@
     background-color: rgb(183, 194, 197);
 }
 
+ul
+{
+   background-color: black;
+}
+
 li,a,button,h1
 {
     font-family: montserrat, sans-serif;
@@ -108,6 +113,7 @@ button:hover
     justify-content:space-between;
     gap: 50px;
     padding: 0 50px;
+    
 }
 
 .beneficio
@@ -144,4 +150,18 @@ button:hover
     padding: 2px 4px;       
     border-radius: 5px;       
     font-weight: bold;  
+}
+
+@media (max-width: 768px) 
+{
+    .container_1 
+    {
+        flex-direction: column; /* empilha os cards */
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .hero_content {
+        padding: 100px 15px; /* reduz padding em telas pequenas */
+    }
 }
